@@ -20,6 +20,7 @@
     "dev": "webpack-dev-server --content-base public"
   },
   "dependencies": {
+    "debounce": "^1.2.0",
     "firebase": "^6.1.1",
     "material-design-icons": "^3.0.1",
     "materialize-css": "^1.0.0-rc.2",

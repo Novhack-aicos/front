@@ -12,6 +12,7 @@
 
     function login() {
         auth.signInWithPopup(googleProvider);
+
     }
     function logout() {
         auth.signOut();
@@ -37,7 +38,7 @@
 
 {#if state.indexOf('zayavka')>=0 }
     <div transition:fade>
-        <Zayavka {...user} bind:state></Zayavka>
+        <Zayavka uid={user.uid} {user} bind:state></Zayavka>
      </div>
 {:else}
 
