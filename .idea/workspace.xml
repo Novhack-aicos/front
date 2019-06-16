@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f884ebb8-87f2-4f87-a6c5-6c7a9afb545e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zayavka.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zayavka.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ZayavkaAdd.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZayavkaAdd.svelte" afterDir="false" />
     </list>
@@ -33,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Zayavka.svelte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="420">
+              <caret line="78" column="191" selection-start-line="78" selection-start-column="191" selection-end-line="78" selection-end-column="191" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ZayavkaAdd.svelte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="210">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="e#29#60#0#HTML" expanded="true" />
               </folding>
@@ -89,15 +84,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
               <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TodoList.svelte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -148,8 +134,8 @@
         <option value="$PROJECT_DIR$/src/Map.svelte" />
         <option value="$PROJECT_DIR$/src/App.svelte" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/Zayavka.svelte" />
         <option value="$PROJECT_DIR$/src/ZayavkaAdd.svelte" />
+        <option value="$PROJECT_DIR$/src/Zayavka.svelte" />
       </list>
     </option>
   </component>
@@ -229,12 +215,12 @@
       <workItem from="1560021745937" duration="23726000" />
       <workItem from="1560143158743" duration="4303000" />
       <workItem from="1560568230187" duration="18960000" />
-      <workItem from="1560664016785" duration="7937000" />
+      <workItem from="1560664016785" duration="12127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58168000" />
+    <option name="totallyTimeSpent" value="62358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,20 +355,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zayavka.svelte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ZayavkaAdd.svelte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="210">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="e#29#60#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zayavka.svelte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="78" column="191" selection-start-line="78" selection-start-column="191" selection-end-line="78" selection-end-column="191" />
         </state>
       </provider>
     </entry>

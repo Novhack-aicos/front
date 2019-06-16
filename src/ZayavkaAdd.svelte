@@ -8,24 +8,36 @@ import { createEventDispatcher } from 'svelte';
 let phone='';
 let address='';
 let message='';
-let test = '';
-const dispatch = createEventDispatcher();
-const getResponse = debounce(getOrg, 300);
 
+let category='';
+let organization='';
+
+const dispatch = createEventDispatcher();
+const getResponse = debounce(getOrg, 100);
+let response=false;
 
 function zayvkaAdd() {
 
-    dispatch('zayvkaAdd', {
-        phone: phone,
-        address: address,
-        message: message
+    let data=response.then(function(response){
+
+        category=response.category;
+        organization=response.organization;
+
+        dispatch('zayvkaAdd', {
+            phone: phone,
+            address: address,
+            message: message,
+            category: category,
+            organization: organization
+        });
+
     });
+
     state = 'zayavka'
 }
 
 function getOrg() {
     let url = 'http://185.137.233.228:5000/intents';
-    //let url = 'http://10.1.38.246:5000/intents';
     let request={
           "context": [
               message
@@ -43,7 +55,6 @@ function getOrg() {
     .then(res => res.json());
 
 }
-let response=false;
 $: {
     response = getResponse(message,address);
 }
@@ -57,6 +68,7 @@ let active='';
             {:then response}
                 {#if response}
                 <div class="as">категория: {response.category}</div><div class="as">организация: {response.organization}</div>
+
                 {/if}
             {/await}
         </div>

@@ -24,6 +24,8 @@ function add(event) {
         uid:uid,
         message:event.detail.message,
         address:event.detail.address,
+        category:event.detail.category,
+        organization:event.detail.organization,
         phone:event.detail.phone,
         status: 'new',
         created: Date.now()
@@ -73,7 +75,11 @@ function shortenStr(str,count=100) {
                         <div class="col s4 date "><span class="">{convertTime(zayavka.created)}</span></div>
                   </div>
                   <div class="row"><div class="col">{shortenStr(zayavka.message)}</div></div>
+                  {#if zayavka.organization}
+                    <div class="row info"><div class="col"><i class="material-icons">info</i><span>Ваша заявка была назначина {zayavka.organization}, ей был присвоен идентификтор  {zayavka.id}. Время ответа на заявку 5 дней. </span></div></div>
+                  {/if}
                   <div class="row address"><div class="col"><i class="material-icons">location_on</i><span>{zayavka.address}</span></div></div>
+
                 </li>
             {/each}
         </ul>
